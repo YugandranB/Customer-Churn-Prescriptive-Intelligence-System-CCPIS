@@ -20,6 +20,27 @@ CCPIS solves this by introducing **behavior-aware churn modeling** and **AI-powe
 
 ---
 
+## 📊 Dataset Used
+
+This project is built using the **Online Retail II (UCI)** dataset from Kaggle:
+
+**Source:** Online Retail II Dataset — UCI Machine Learning Repository (via Kaggle)
+
+Dataset Characteristics:
+
+* Real-world UK-based retail transaction data
+* Invoice-level purchase behavior
+* Customer-level transactional history
+* High class imbalance (real churn scenario)
+
+Why This Dataset Was Chosen:
+
+* Mimics enterprise retail CRM environments
+* Enables realistic churn labeling strategies
+* Suitable for behavioral modeling and temporal analysis
+
+---
+
 ## 🧠 System Capabilities
 
 * Behavioral churn prediction using XGBoost
@@ -84,6 +105,24 @@ This significantly reduces false churn labeling.
 
 ---
 
+## 🎯 Hyper-Personalization Engine
+
+CCPIS enables **customer-level hyper-personalization** by combining:
+
+* Behavioral segmentation
+* Purchase frequency patterns
+* Product affinity
+* Customer lifetime behavior
+
+This allows the system to:
+
+* Assign tailored retention actions per customer
+* Avoid blanket discount strategies
+* Optimize campaign targeting
+* Improve long-term customer value
+
+---
+
 ## 🤖 Prescriptive Intelligence Layer
 
 The AI engine analyzes:
@@ -105,9 +144,9 @@ This converts analytics into actionable business decisions.
 
 ---
 
-## 🖥 Decision Intelligence Dashboard
+## 🖥 Decision Intelligence Dashboard (Gradio)
 
-The Gradio dashboard provides:
+The interactive Gradio dashboard provides:
 
 * Live churn risk telemetry
 * Behavioral segmentation view
@@ -116,6 +155,29 @@ The Gradio dashboard provides:
 * VIP customer auditing
 
 Designed as an internal CRM analytics command center.
+
+---
+
+## 🖼 UI Preview
+
+Add screenshots of your Gradio dashboard inside the following folder:
+
+```
+assets/screenshots/
+```
+
+Example Usage:
+
+```
+![Dashboard Preview](assets/screenshots/dashboard.png)
+```
+
+Recommended Screenshots:
+
+* Main dashboard view
+* Customer segmentation visualization
+* AI recommendation panel
+* Risk distribution chart
 
 ---
 

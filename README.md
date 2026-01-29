@@ -1,4 +1,4 @@
-# Customer Churn Prescriptive Intelligence System (CCPIS)
+# 🚀 Customer Churn Prescriptive Intelligence System (CCPIS)
 
 > An end-to-end customer analytics platform that predicts churn risk and generates AI-driven retention strategies using behavioral modeling and prescriptive intelligence.
 
@@ -8,13 +8,13 @@ CCPIS goes beyond traditional churn prediction by learning **customer purchase r
 
 ## 📌 Problem Statement
 
-Most churn systems rely on static thresholds (example: no purchase in 90 days = churn).  
+Most churn systems rely on static thresholds (example: no purchase in 90 days = churn).
 This leads to:
 
-- False churn detection  
-- Unnecessary discount campaigns  
-- Revenue leakage  
-- Poor customer experience  
+* False churn detection
+* Unnecessary discount campaigns
+* Revenue leakage
+* Poor customer experience
 
 CCPIS solves this by introducing **behavior-aware churn modeling** and **AI-powered prescriptive decision support**.
 
@@ -22,42 +22,49 @@ CCPIS solves this by introducing **behavior-aware churn modeling** and **AI-powe
 
 ## 🧠 System Capabilities
 
-- Behavioral churn prediction using XGBoost  
-- Inter-Purchase Time (IPT) rhythm modeling  
-- Leakage-safe model training strategy  
-- Class imbalance handling with SMOTE  
-- Customer segmentation using KMeans  
-- AI-powered prescriptive recommendations (Gemini API)  
-- Interactive analytics dashboard (Gradio)  
-- Visual behavioral mapping of high-risk customers  
+* Behavioral churn prediction using XGBoost
+* Inter-Purchase Time (IPT) rhythm modeling
+* Leakage-safe model training strategy
+* Class imbalance handling with SMOTE
+* Customer segmentation using KMeans
+* AI-powered prescriptive recommendations (Gemini API)
+* Interactive analytics dashboard (Gradio)
+* Visual behavioral mapping of high-risk customers
 
 ---
 
 ## 🏗 System Architecture
 
-
-
-
-
-
-
-
-
-
+```
+Raw Transaction Data
+        ↓
+Data Ingestion Layer
+        ↓
+Behavioral Feature Engineering (RFM + IPT)
+        ↓
+Churn Prediction Engine (XGBoost)
+        ↓
+Customer Segmentation (KMeans)
+        ↓
+Prescriptive AI Layer (Gemini)
+        ↓
+Decision Intelligence Dashboard (Gradio UI)
+```
 
 ---
 
 ## 📊 Model Performance
 
-- Validation ROC-AUC Score: 0.72  
-- Training Methodology: Leakage-free modeling (Recency excluded)  
-- Optimization Techniques:
-  - SMOTE oversampling  
-  - Log transformation on skewed variables  
+* Validation ROC-AUC Score: **0.72**
+* Training Methodology: Leakage-free modeling (Recency excluded)
+* Optimization Techniques:
+
+  * SMOTE oversampling
+  * Log transformation on skewed variables
 
 ### Why 0.72 Is Strong
 
-Customer churn prediction is a real-world noisy problem.  
+Customer churn prediction is a real-world noisy problem.
 A 0.72 ROC-AUC provides reliable customer risk ranking, which is highly valuable for business prioritization and marketing strategy optimization.
 
 ---
@@ -68,10 +75,10 @@ Unlike traditional churn models, CCPIS models individual customer buying rhythm.
 
 Example:
 
-| Customer Type | Purchase Cycle | Risk Interpretation |
----------------|----------------|---------------------
-Frequent Buyer | Every 10 days  | At risk at 20 days  
-Seasonal Buyer | Every 100 days | Still safe at 90 days  
+| Customer Type  | Purchase Cycle | Risk Interpretation   |
+| -------------- | -------------- | --------------------- |
+| Frequent Buyer | Every 10 days  | At risk at 20 days    |
+| Seasonal Buyer | Every 100 days | Still safe at 90 days |
 
 This significantly reduces false churn labeling.
 
@@ -81,18 +88,18 @@ This significantly reduces false churn labeling.
 
 The AI engine analyzes:
 
-- Customer churn probability  
-- Behavioral segment  
-- Purchase history  
-- Product affinity  
-- Geographic context  
+* Customer churn probability
+* Behavioral segment
+* Purchase history
+* Product affinity
+* Geographic context
 
 And generates:
 
-- Retention strategy recommendations  
-- Campaign messaging ideas  
-- Discount vs engagement decision guidance  
-- Psychological churn drivers  
+* Retention strategy recommendations
+* Campaign messaging ideas
+* Discount vs engagement decision guidance
+* Psychological churn drivers
 
 This converts analytics into actionable business decisions.
 
@@ -102,11 +109,11 @@ This converts analytics into actionable business decisions.
 
 The Gradio dashboard provides:
 
-- Live churn risk telemetry  
-- Behavioral segmentation view  
-- Visual customer positioning map  
-- AI-generated marketing playbooks  
-- VIP customer auditing  
+* Live churn risk telemetry
+* Behavioral segmentation view
+* Visual customer positioning map
+* AI-generated marketing playbooks
+* VIP customer auditing
 
 Designed as an internal CRM analytics command center.
 
@@ -114,20 +121,103 @@ Designed as an internal CRM analytics command center.
 
 ## 🛠 Tech Stack
 
-| Layer | Technology |
-------|---------
-Language | Python  
-Data Processing | Pandas, NumPy  
-Modeling | XGBoost, Scikit-learn  
-Imbalance Handling | SMOTE  
-Clustering | KMeans  
-Visualization | Matplotlib  
-AI Reasoning | Google Gemini API  
-UI Layer | Gradio  
+| Layer              | Technology            |
+| ------------------ | --------------------- |
+| Language           | Python                |
+| Data Processing    | Pandas, NumPy         |
+| Modeling           | XGBoost, Scikit-learn |
+| Imbalance Handling | SMOTE                 |
+| Clustering         | KMeans                |
+| Visualization      | Matplotlib            |
+| AI Reasoning       | Google Gemini API     |
+| UI Layer           | Gradio                |
 
 ---
 
 ## 📂 Project Structure
 
+```
+Customer-Churn-Prescriptive-Intelligence-System/
+│
+├── app.py
+├── config.py
+│
+├── data/
+│   └── loader.py
+│
+├── features/
+│   └── behavioral_engine.py
+│
+├── models/
+│   ├── churn_model.py
+│   └── segmentation.py
+│
+├── intelligence/
+│   └── prescriptive_ai.py
+│
+├── dashboard/
+│   └── ui.py
+│
+├── assets/
+│   ├── screenshots/
+│   └── diagrams/
+│
+├── requirements.txt
+└── README.md
+```
 
+---
 
+## ⚙ Installation
+
+### Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+## ▶ Run Application
+
+```
+python app.py
+```
+
+After running, the dashboard will open locally in your browser.
+
+---
+
+## 📈 Business Use Cases
+
+* Customer retention optimization
+* Marketing budget efficiency improvement
+* VIP churn risk identification
+* AI-assisted CRM decision making
+* Customer lifetime value protection
+
+---
+
+## 🔮 Future Improvements
+
+Planned enhancements:
+
+* FastAPI backend integration
+* Real-time data ingestion
+* Model monitoring and drift detection
+* Experiment tracking
+* Cloud deployment
+* CRM tool integration
+
+---
+
+## 👨‍💻 Author
+
+Built as a real-world applied data science and AI systems portfolio project focused on customer analytics and business intelligence.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, consider giving the repository a star ⭐
+It helps increase visibility and supports open learning.

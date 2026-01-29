@@ -1,4 +1,4 @@
-# 🚀 Customer Churn Prescriptive Intelligence System (CCPIS)
+# Customer Churn Prescriptive Intelligence System (CCPIS)
 
 > An end-to-end customer analytics platform that predicts churn risk and generates AI-driven retention strategies using behavioral modeling and prescriptive intelligence.
 

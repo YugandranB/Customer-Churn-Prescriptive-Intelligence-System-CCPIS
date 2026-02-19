@@ -56,20 +56,11 @@ Why This Dataset Was Chosen:
 
 ## 🏗 System Architecture
 
-```
-Raw Transaction Data
-        ↓
-Data Ingestion Layer
-        ↓
-Behavioral Feature Engineering (RFM + IPT)
-        ↓
-Churn Prediction Engine (XGBoost)
-        ↓
-Customer Segmentation (KMeans)
-        ↓
-Prescriptive AI Layer (Gemini)
-        ↓
-Decision Intelligence Dashboard (Gradio UI)
+The following diagram illustrates the end-to-end architecture of the **Customer Churn Prescriptive Intelligence System (CCPIS)**, from raw transactional data ingestion to AI-driven decision intelligence.
+
+![System Architecture Diagram](assets/diagrams/system_architecture.png)
+
+
 ```
 
 ---

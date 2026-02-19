@@ -61,7 +61,7 @@ The following diagram illustrates the end-to-end architecture of the **Customer 
 ![System Architecture Diagram](assets/diagram/system_architecture.jpg)
 
 
-```
+
 
 ---
 

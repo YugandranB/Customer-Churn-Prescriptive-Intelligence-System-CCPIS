@@ -157,27 +157,23 @@ The interactive Gradio dashboard provides:
 Designed as an internal CRM analytics command center.
 
 ---
-
 ## 🖼 UI Preview
 
-Add screenshots of your Gradio dashboard inside the following folder:
+Below are snapshots from the interactive **Gradio-based Decision Intelligence Dashboard**, showcasing churn risk insights and AI-driven recommendations.
 
-```
-assets/screenshots/
-```
-
-Example Usage:
-
-```
+### 📊 Main Dashboard Overview
 ![Dashboard Preview](assets/screenshots/dashboard.png)
-```
 
-Recommended Screenshots:
+### 📈 Churn Risk Distribution
+![Risk Distribution](assets/screenshots/risk_distribution.png)
 
-* Main dashboard view
-* Customer segmentation visualization
-* AI recommendation panel
-* Risk distribution chart
+### 🤖 AI Prescriptive Recommendation Panel
+![AI Recommendation](assets/screenshots/ai_recommendation.png)
+
+### 🤖 AI Recommendation – Alternative Views
+![AI Recommendation 2](assets/screenshots/ai_recommendation%20(2).png)
+![AI Recommendation 3](assets/screenshots/ai_recommendation%20(3).png)
+
 
 ---
 
